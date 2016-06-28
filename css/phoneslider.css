@@ -1,0 +1,52 @@
+.next{right:-120px;left:auto;}
+.slider-wrap .next:after{border-top:2px solid #000;border-right:2px solid #000;border-left:none;border-bottom:none;right:40%;left:auto;}
+#tour{z-index:1;position:relative;padding:80px;position:relative;z-index:1;padding-top:0;min-height:500px;margin-top:-50px;padding-top:80px;}
+@media screen and (max-width: 770px){
+	#tour{padding-left:30px;padding-right:30px;}
+}
+#tour h2{font-size:40px;
+line-height:60px;
+text-align:center;
+font-weight:900;
+font-family:Verdana, Geneva, sans-serif, "微軟正黑體"}
+#tour span{ font-size:20px;
+line-height:48px;
+text-align:center;
+font-family:Verdana, Geneva, sans-serif, "微軟正黑體"}
+	#img-slider,#img-slider2,#img-slider3,#img-slider4{height:520px;margin-top:50px;position:relative;}
+	#img-slider .slide,#img-slider2 .slide,#img-slider3 .slide,#img-slider4 .slide{width:100%;position:absolute;}
+	#img-slider .slide .img,#img-slider2 .slide .img,#img-slider3 .slide .img,#img-slider4 .slide .img{margin:10px auto;border:none;}
+	#img-slider .img,#img-slider2 .img,#img-slider3 .img,#img-slider4 .img{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-webkit-box-shadow: 0 1px 0 rgba(204,205,206,5);
+	-moz-box-shadow: 0 1px 0 rgba(204,205,206,5);
+	-ms-box-shadow: 0 1px 0 rgba(204,205,206,5);	
+	width: 282px;
+	height: 580px;
+	position: relative;
+}
+#img-slider .img img,#img-slider .img .i,#img-slider2 .img img,#img-slider2 .img .i,#img-slider3 .img img,#img-slider3 .img .i,#img-slider4 .img img,#img-slider4 .img .i{
+	display: block;
+	width: 100%;
+	margin-top: 228px;
+}
+#img-slider .img:first-child,#img-slider2 .img:first-child,#img-slider3 .img:first-child,#img-slider4 .img:first-child{display:block;}
+
+
+@media screen and (max-width: 770px){}
+.switcher-wrap{position:relative;padding-bottom:60px;padding-left:80px;padding-right:80px;}
+.switcher-wrap.slider{padding-left:180px;padding-right:180px;}
+.switcher-wrap.slider #img-slider .img{
+
+}
+.switcher-wrap > p{background-color:rgba(255,255,255,0);background:-webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),to(#fff));background:-webkit-linear-gradient(left,#fff,rgba(255,255,255,0));background:-moz-linear-gradient(left,#fff,rgba(255,255,255,0));background:-ms-linear-gradient(left,#fff,rgba(255,255,255,0));background:-o-linear-gradient(left,#fff,rgba(255,255,255,0));position:absolute;width:100px;left:0;z-index:999;top:0;bottom:0;}.switcher-wrap > p + p{background-color:rgba(255,255,255,0);background:-webkit-gradient(linear,left top,right top,from(#fff),to(rgba(255,255,255,0)));background:-webkit-linear-gradient(left,rgba(255,255,255,0),#fff);background:-moz-linear-gradient(left,rgba(255,255,255,0),#fff);background:-ms-linear-gradient(left,rgba(255,255,255,0),#fff);background:-o-linear-gradient(left,rgba(255,255,255,0),#fff);left:auto;right:0;}
+@media screen and (max-width: 1366px){
+	
+	}
+@media screen and (max-width: 1024px){
+	}
