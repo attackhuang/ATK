@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>payment</title>
+<link href="css/responsive.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" type="image/png" href="img/favicon.ico"/>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WXH3ZV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WXH3ZV');</script>
+<!-- End Google Tag Manager -->
+<!-- header_top -->
+<div class="top_bg">
+	
+			<div class="top_txt">
+				付款
+			</div>
+	
+</div>
+<!-- header -->
+
+<div class="logo">
+			<a href="index.html"><img src="img/logo.png" class="img-responsive" alt=""/> </a>
+		</div>
+		<div class="clearfix"> </div>
+
+<!-- content -->
+
+	<!-- start registration --><form name="fm" method="post" action="https://www.focas-test.fisc.com.tw/FOCAS_WEBPOS/customizeOnline/" >
+	<div class="registration">
+	  <div class="registration_left">		
+		<!-- [if IE] 
+		    < link rel='stylesheet' type='text/css' href='ie.css'/>  
+		 [endif] -->  
+		  
+		<!-- [if lt IE 7]>  
+		    < link rel='stylesheet' type='text/css' href='ie6.css'/>  
+		<! [endif] -->  
+		<script>
+			(function() {
+		
+			// Create input element for testing
+			var inputs = document.createElement('input');
+			
+			// Create the supports object
+			var supports = {};
+			
+			supports.autofocus   = 'autofocus' in inputs;
+			supports.required    = 'required' in inputs;
+			supports.placeholder = 'placeholder' in inputs;
+		
+			// Fallback for autofocus attribute
+			if(!supports.autofocus) {
+				
+			}
+			
+			// Fallback for required attribute
+			if(!supports.required) {
+				
+			}
+		
+			// Fallback for placeholder attribute
+			if(!supports.placeholder) {
+				
+			}
+			
+			// Change text inside send button on submit
+			var send = document.getElementById('register-submit');
+			if(send) {
+				send.onclick = function () {
+					this.innerHTML = '...Sending';
+				}
+			}
+		
+		})();
+		</script>
+		 <div class="registration_form">
+		 <!-- Form -->
+			
+				<div>
+					<label>特店名稱</label>
+						<span id="lidmSpan" name="MerchantName"><$MerchantName$></span>
+					
+				</div><div class="sold"></div>
+				<div>
+					<label>特店代碼</label>
+						<span id="lidmSpan" name="MerchantID"><$MerchantID$></span>
+					
+				</div><div class="sold"></div>
+				<div>
+					<label>端未代碼：</label>
+						<span id="lidmSpan" name="TerminalID"><$TerminalID$></span>
+					
+				</div>
+				 <div class="sold"></div>
+				<div>
+					<label>訂單編號：
+					</label><span id="lidmSpan" name="lidm"><$lidm$></span>
+				</div>			
+				
+			
+		</div>
+	  <div class="card">可接受之信用卡<img src="img/visa_icon.png" style="width:16%;margin-left:1.5%; margin-right:1.5%; max-width:70px"><img src="img/master_icon.png" style="width:16%;margin-left:1.5%; margin-right:1.5%; max-width:70px"><img src="img/jcb_icon.png" style="width:16%;margin-left:1.5%; margin-right:1.5%; max-width:70px"></div></div>
+	<div class="registration_left">	
+		 <div class="registration_form">
+		 <!-- Form -->
+		
+				<div style="clear:both;height:75px; min-width:360px">
+					<label>卡號</label>
+						<input type=text name=pan_no1 size=4 value="" maxlength="4">
+						<div style="float: left; padding-left: 3px; padding-right: 3px; color:#333; padding-top:5px">-</div><input type=text name=pan_no2 size=4 value="" maxlength="4">
+						<div style="float: left; padding-left: 3px; padding-right: 3px; color:#333; padding-top:5px">-</div><input type=text name=pan_no3 size=4 value="" maxlength="4">
+						<div style="float: left; padding-left: 3px; padding-right: 3px; color:#333; padding-top:5px">-</div><input type=text name=pan_no4 size=4 value="" maxlength="4">
+					
+				</div>
+                <div class="sold"></div>
+				<div style="clear:both">
+					<label>有效期限</label>
+						<select name=expire_month>
+                        <option value=""></option>
+						<option value=01>01</option>
+						<option value=02>02</option>
+						<option value=03>03</option>
+						<option value=04>04</option>
+						<option value=05>05</option>
+						<option value=06>06</option>
+						<option value=07>07</option>
+						<option value=08>08</option>
+						<option value=09>09</option>
+						<option value=10>10</option>
+						<option value=11>11</option>
+						<option value=12>12</option>
+				</select>
+				-
+				<select name=expire_year>
+                		<option value=""></option>
+						<option value=2014>14</option>
+						<option value=2015>15</option>
+						<option value=2016>16</option>
+						<option value=2017>17</option>
+						<option value=2018>18</option>
+						<option value=2019>19</option>
+						<option value=2020>20</option>
+						<option value=2021>21</option>
+						<option value=2022>22</option>
+						<option value=2023>23</option>
+				</select>
+					
+				</div><div class="sold"></div>
+                <div style="clear:both; height:75px">
+					<label>信用卡檢查碼(CVC)</label>
+						<input placeholder="3~4位數字" type="text" tabindex="5" name=cvc2 style="width:100%" maxlength=4 autocomplete=off onKeyUp="setBlur(this);" required>
+						
+				</div><div class="sold"></div>			
+				
+			
+			</div><div style="clear:both; margin-top:15px;padding: 1%; margin-bottom:20px" align="center">
+					<input type="submit" value="確定送出" id="register-submit" name="send_bt">
+				</div>	
+	</div>
+	<input name="MerchantID" type="hidden" value="<$MerchantID$>"/>
+<input name="TerminalID" type="hidden" value="<$TerminalID$>"/>
+<input name="lidm" id="lidm" type="hidden" value="<$lidm$>"/>
+<input name="purchAmt" id="purchAmt" type="hidden" value="<$purchAmt$>"/>
+<input name="UUID" id="UUID" type="hidden" value="<$UUID$>"/>
+<input name="AuthResURL" type="hidden" value="<$AuthResURL$>"/>
+<input name="AutoCap" type="hidden" value="<$AutoCap$>"/>
+<input name="merID" type="hidden" value="<$merID$>"/>
+	</div></form>
+			<!-- /Form -->
+	<!-- end registration -->
+
+</body>
+</html>
